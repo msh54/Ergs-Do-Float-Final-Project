@@ -1,8 +1,8 @@
 
-module ratioer(ratio,start_drive,start_recovery,count_clock,recovery_count,drive_count,divResult);
+module ratioer(ratio,start_drive,start_recovery,count_clock);
 	input start_drive, start_recovery,count_clock;
 	output[31:0] ratio;
-	output[31:0] recovery_count,drive_count,divResult;
+	wire[31:0] recovery_count,drive_count,divResult;
 
 
 	wire reset;
