@@ -6,7 +6,7 @@ module ratioer(ratio,start_drive,start_recovery,count_clock);
 
 
 	wire reset;
-	counter _counter(drive_count,recovery_count,start_drive,start_recovery,count_clock,reset);
+	counter _counter(drive_count,recovery_count,start_drive,start_recovery,count_clock);
 	// counter(drive_count,recovery_count,start_drive,start_recovery,clk);
 	
 	//wire divResult;
