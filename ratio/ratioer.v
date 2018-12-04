@@ -1,18 +1,23 @@
 
-module ratioer(ratio,start_drive,start_recovery,count_clock,recovery_count,drive_count);
+module ratioer(ratio,start_drive,start_recovery,count_clock,recovery_count,drive_count,divResult);
 	input start_drive, start_recovery,count_clock;
 	output[31:0] ratio;
-	output[31:0] recovery_count,drive_count;
+	output[31:0] recovery_count,drive_count,divResult;
 
 
-	
+	wire reset;
 	counter _counter(drive_count,recovery_count,start_drive,start_recovery,count_clock,reset);
 	// counter(drive_count,recovery_count,start_drive,start_recovery,clk);
 	
-	wire reset;
+	//wire divResult;
 	
-	divider _div(ratio,recovery_count,drive_count);
+	divider _div(recovery_count,drive_count,divResult);
 	
+	
+	// In counter, there is a 5 cycle delay between enable and reset; can use ratio != 0, because the numerator 0 will be reset to 0
+	assign enable = start_drive && (reset != 0) && (divResult != 0);
+	
+	register _ratReg(.clk(count_clock), .in_en(enable), .data_in(divResult), .data_out(ratio), .clr(1'b0));
 
 endmodule
 
