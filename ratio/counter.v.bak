@@ -1,0 +1,7 @@
+module counter(drive_count,recovery_count,start_drive,start_recovery);
+input[31:0] drive_count;
+input[31:0] recovery_count;
+
+
+
+endmodule;

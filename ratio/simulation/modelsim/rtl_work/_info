@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/simulation/modelsim
+vCLAadder
+Z1 !s110 1543853725
+!i10b 1
+!s100 n`o`>ICd4P0cCI<gW0Pfk2
+IBF[kD?LLhN5]`=8EcWiOi0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1543787815
+8C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/CLAadder.v
+FC:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/CLAadder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1543853725.000000
+!s107 C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/CLAadder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio|C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/CLAadder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio
+Z7 tCvgOpt 0
+n@c@l@aadder
+vcounter
+!s110 1543853724
+!i10b 1
+!s100 QkGLMGidHXWm^VdRTefSd2
+I?U0E^7Gdci=1iPe0kYFEJ2
+R2
+R0
+w1543853552
+8C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/counter.v
+FC:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1543853724.000000
+!s107 C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio|C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/counter.v|
+!i113 1
+R5
+R6
+R7
+vdffe_ref
+R1
+!i10b 1
+!s100 m2?1a8:`omUTO_3UK>MQz1
+Ibd>I_Fn4jk<O3z^hYeoSi0
+R2
+R0
+w1543790343
+8C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/dffe_ref.v
+FC:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/dffe_ref.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/dffe_ref.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio|C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/dffe_ref.v|
+!i113 1
+R5
+R6
+R7
+vexor
+R1
+!i10b 1
+!s100 geG4YThXiZWG;bzV`I[Rl2
+I5jbZmBM2PCCOXBlQn?Mme0
+R2
+R0
+w1543788452
+8C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/exor.v
+FC:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/exor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/exor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio|C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/exor.v|
+!i113 1
+R5
+R6
+R7
+vratioer_tb
+R1
+!i10b 1
+!s100 O<gQdPVWhdVoJCLE4fbH51
+Im[1]a^i89:MQ0?W;[7@4J0
+R2
+R0
+w1543852228
+8C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/ratioer_tb.v
+FC:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/ratioer_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/ratioer_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio|C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/ratioer_tb.v|
+!i113 1
+R5
+R6
+R7
+vregister
+R1
+!i10b 1
+!s100 V3N2e5LenHPjT44[K_GZm1
+I9MFcbg5Q0DZ=KbGR^QD1=3
+R2
+R0
+w1543787642
+8C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/register.v
+FC:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/register.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio|C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/register.v|
+!i113 1
+R5
+R6
+R7

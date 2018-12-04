@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/simulation/qsim
+vcounter
+Z1 !s110 1543885200
+!i10b 1
+!s100 7=5dRh4^E3P9MS?DTaBVL2
+Ia@TB8cafHYR208L5?n>`43
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1543885199
+Z3 8ratioer.vo
+Z4 Fratioer.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1543885200.000000
+Z8 !s107 ratioer.vo|
+Z9 !s90 -work|work|ratioer.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcounter_vlg_vec_tst
+R1
+!i10b 1
+!s100 2B8C^02z2FUKLheiQ<k>]2
+IZGNkLNVHYeN=[KHoTFM3D2
+R2
+R0
+w1543885198
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+Z12 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R10
+R11
+vdivider
+Z13 !s110 1543851730
+!i10b 1
+!s100 G4@d60iW9MDgKVKXz5=TP3
+I6zLIY28zdaV3>52S_Y`Df3
+R2
+R0
+w1543851730
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1543851730.000000
+R8
+R9
+!i113 1
+R10
+R11
+vdivider_vlg_vec_tst
+R13
+!i10b 1
+!s100 HggYZ>=<jK?30^ULz]48B0
+Ijl^nPZ:9l`9^7Ff3FRe;T1
+R2
+R0
+w1543851728
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+!s110 1543887419
+!i10b 1
+!s100 <<Y=;f>55`OAA?DzZZ[cP3
+IgL><iEZ;J]8TegiY1k1:?1
+R2
+R0
+w1543887418
+R3
+R4
+L0 28059
+R6
+r1
+!s85 0
+31
+!s108 1543887419.000000
+R8
+R9
+!i113 1
+R10
+R11
+vratioer
+Z15 !s110 1543888955
+!i10b 1
+!s100 ;AZ95X6`C4HInjlQblRHk3
+InJ@hcU<TDI:ES;FR_o3_B3
+R2
+R0
+w1543888954
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1543888955.000000
+R8
+R9
+!i113 1
+R10
+R11
+vratioer_vlg_vec_tst
+R15
+!i10b 1
+!s100 PIKLGT;a88dP;IKX2kB8U3
+In_E?YO]4b6hhbBH^9O`fl2
+R2
+R0
+w1543888953
+8Waveform5.vwf.vt
+FWaveform5.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R16
+!s107 Waveform5.vwf.vt|
+!s90 -work|work|Waveform5.vwf.vt|
+!i113 1
+R10
+R11
+vregister
+Z17 !s110 1543848387
+!i10b 1
+!s100 @?B4IJV2Pl_@9S@mj?Z_U1
+I4THc`hI;K@5V;7iJHIAQo0
+R2
+R0
+Z18 w1543848385
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z19 !s108 1543848387.000000
+R8
+R9
+!i113 1
+R10
+R11
+vregister_vlg_vec_tst
+R17
+!i10b 1
+!s100 Nbg<<azH@ScU9bSG_OgN:0
+I3U`j2mWzDSWBRLMCla:kG2
+R2
+R0
+R18
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R19
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11

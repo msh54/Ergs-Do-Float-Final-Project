@@ -1,0 +1,23 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio {C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/ratioer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio {C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/counter.v}
+vlog -vlog01compat -work work +incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio {C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/register.v}
+vlog -vlog01compat -work work +incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio {C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/dffe_ref.v}
+vlog -vlog01compat -work work +incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio {C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/CLAadder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio {C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/exor.v}
+vlog -vlog01compat -work work +incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio {C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/divider.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio {C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/ratioer_tb.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  ratioer_tb
+
+add wave *
+view structure
+view signals
+run -all

@@ -1,0 +1,1789 @@
+|ratioer
+ratio[0] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[1] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[2] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[3] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[4] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[5] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[6] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[7] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[8] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[9] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[10] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[11] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[12] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[13] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[14] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[15] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[16] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[17] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[18] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[19] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[20] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[21] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[22] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[23] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[24] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[25] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[26] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[27] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[28] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[29] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[30] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+ratio[31] <= ratio.DB_MAX_OUTPUT_PORT_TYPE
+start_drive => start_drive.IN1
+start_recovery => start_recovery.IN1
+count_clock => count_clock.IN1
+recovery_count[0] <= counter:_counter.port1
+recovery_count[1] <= counter:_counter.port1
+recovery_count[2] <= counter:_counter.port1
+recovery_count[3] <= counter:_counter.port1
+recovery_count[4] <= counter:_counter.port1
+recovery_count[5] <= counter:_counter.port1
+recovery_count[6] <= counter:_counter.port1
+recovery_count[7] <= counter:_counter.port1
+recovery_count[8] <= counter:_counter.port1
+recovery_count[9] <= counter:_counter.port1
+recovery_count[10] <= counter:_counter.port1
+recovery_count[11] <= counter:_counter.port1
+recovery_count[12] <= counter:_counter.port1
+recovery_count[13] <= counter:_counter.port1
+recovery_count[14] <= counter:_counter.port1
+recovery_count[15] <= counter:_counter.port1
+recovery_count[16] <= counter:_counter.port1
+recovery_count[17] <= counter:_counter.port1
+recovery_count[18] <= counter:_counter.port1
+recovery_count[19] <= counter:_counter.port1
+recovery_count[20] <= counter:_counter.port1
+recovery_count[21] <= counter:_counter.port1
+recovery_count[22] <= counter:_counter.port1
+recovery_count[23] <= counter:_counter.port1
+recovery_count[24] <= counter:_counter.port1
+recovery_count[25] <= counter:_counter.port1
+recovery_count[26] <= counter:_counter.port1
+recovery_count[27] <= counter:_counter.port1
+recovery_count[28] <= counter:_counter.port1
+recovery_count[29] <= counter:_counter.port1
+recovery_count[30] <= counter:_counter.port1
+recovery_count[31] <= counter:_counter.port1
+drive_count[0] <= counter:_counter.port0
+drive_count[1] <= counter:_counter.port0
+drive_count[2] <= counter:_counter.port0
+drive_count[3] <= counter:_counter.port0
+drive_count[4] <= counter:_counter.port0
+drive_count[5] <= counter:_counter.port0
+drive_count[6] <= counter:_counter.port0
+drive_count[7] <= counter:_counter.port0
+drive_count[8] <= counter:_counter.port0
+drive_count[9] <= counter:_counter.port0
+drive_count[10] <= counter:_counter.port0
+drive_count[11] <= counter:_counter.port0
+drive_count[12] <= counter:_counter.port0
+drive_count[13] <= counter:_counter.port0
+drive_count[14] <= counter:_counter.port0
+drive_count[15] <= counter:_counter.port0
+drive_count[16] <= counter:_counter.port0
+drive_count[17] <= counter:_counter.port0
+drive_count[18] <= counter:_counter.port0
+drive_count[19] <= counter:_counter.port0
+drive_count[20] <= counter:_counter.port0
+drive_count[21] <= counter:_counter.port0
+drive_count[22] <= counter:_counter.port0
+drive_count[23] <= counter:_counter.port0
+drive_count[24] <= counter:_counter.port0
+drive_count[25] <= counter:_counter.port0
+drive_count[26] <= counter:_counter.port0
+drive_count[27] <= counter:_counter.port0
+drive_count[28] <= counter:_counter.port0
+drive_count[29] <= counter:_counter.port0
+drive_count[30] <= counter:_counter.port0
+drive_count[31] <= counter:_counter.port0
+
+
+|ratioer|counter:_counter
+drive_count[0] <= drive_count[0].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[1] <= drive_count[1].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[2] <= drive_count[2].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[3] <= drive_count[3].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[4] <= drive_count[4].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[5] <= drive_count[5].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[6] <= drive_count[6].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[7] <= drive_count[7].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[8] <= drive_count[8].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[9] <= drive_count[9].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[10] <= drive_count[10].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[11] <= drive_count[11].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[12] <= drive_count[12].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[13] <= drive_count[13].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[14] <= drive_count[14].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[15] <= drive_count[15].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[16] <= drive_count[16].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[17] <= drive_count[17].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[18] <= drive_count[18].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[19] <= drive_count[19].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[20] <= drive_count[20].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[21] <= drive_count[21].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[22] <= drive_count[22].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[23] <= drive_count[23].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[24] <= drive_count[24].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[25] <= drive_count[25].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[26] <= drive_count[26].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[27] <= drive_count[27].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[28] <= drive_count[28].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[29] <= drive_count[29].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[30] <= drive_count[30].DB_MAX_OUTPUT_PORT_TYPE
+drive_count[31] <= drive_count[31].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[0] <= recovery_count[0].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[1] <= recovery_count[1].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[2] <= recovery_count[2].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[3] <= recovery_count[3].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[4] <= recovery_count[4].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[5] <= recovery_count[5].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[6] <= recovery_count[6].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[7] <= recovery_count[7].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[8] <= recovery_count[8].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[9] <= recovery_count[9].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[10] <= recovery_count[10].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[11] <= recovery_count[11].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[12] <= recovery_count[12].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[13] <= recovery_count[13].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[14] <= recovery_count[14].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[15] <= recovery_count[15].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[16] <= recovery_count[16].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[17] <= recovery_count[17].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[18] <= recovery_count[18].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[19] <= recovery_count[19].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[20] <= recovery_count[20].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[21] <= recovery_count[21].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[22] <= recovery_count[22].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[23] <= recovery_count[23].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[24] <= recovery_count[24].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[25] <= recovery_count[25].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[26] <= recovery_count[26].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[27] <= recovery_count[27].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[28] <= recovery_count[28].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[29] <= recovery_count[29].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[30] <= recovery_count[30].DB_MAX_OUTPUT_PORT_TYPE
+recovery_count[31] <= recovery_count[31].DB_MAX_OUTPUT_PORT_TYPE
+start_drive => start_drive.IN1
+start_recovery => _enableOn.IN0
+clk => clk.IN3
+reset => reset.IN2
+
+
+|ratioer|counter:_counter|dffe_ref:_onDrive
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg
+clk => clk.IN32
+in_en => in_en.IN32
+data_in[0] => data_in[0].IN1
+data_in[1] => data_in[1].IN1
+data_in[2] => data_in[2].IN1
+data_in[3] => data_in[3].IN1
+data_in[4] => data_in[4].IN1
+data_in[5] => data_in[5].IN1
+data_in[6] => data_in[6].IN1
+data_in[7] => data_in[7].IN1
+data_in[8] => data_in[8].IN1
+data_in[9] => data_in[9].IN1
+data_in[10] => data_in[10].IN1
+data_in[11] => data_in[11].IN1
+data_in[12] => data_in[12].IN1
+data_in[13] => data_in[13].IN1
+data_in[14] => data_in[14].IN1
+data_in[15] => data_in[15].IN1
+data_in[16] => data_in[16].IN1
+data_in[17] => data_in[17].IN1
+data_in[18] => data_in[18].IN1
+data_in[19] => data_in[19].IN1
+data_in[20] => data_in[20].IN1
+data_in[21] => data_in[21].IN1
+data_in[22] => data_in[22].IN1
+data_in[23] => data_in[23].IN1
+data_in[24] => data_in[24].IN1
+data_in[25] => data_in[25].IN1
+data_in[26] => data_in[26].IN1
+data_in[27] => data_in[27].IN1
+data_in[28] => data_in[28].IN1
+data_in[29] => data_in[29].IN1
+data_in[30] => data_in[30].IN1
+data_in[31] => data_in[31].IN1
+data_out[0] <= dffe_ref:loop1[0].dffe_c.q
+data_out[1] <= dffe_ref:loop1[1].dffe_c.q
+data_out[2] <= dffe_ref:loop1[2].dffe_c.q
+data_out[3] <= dffe_ref:loop1[3].dffe_c.q
+data_out[4] <= dffe_ref:loop1[4].dffe_c.q
+data_out[5] <= dffe_ref:loop1[5].dffe_c.q
+data_out[6] <= dffe_ref:loop1[6].dffe_c.q
+data_out[7] <= dffe_ref:loop1[7].dffe_c.q
+data_out[8] <= dffe_ref:loop1[8].dffe_c.q
+data_out[9] <= dffe_ref:loop1[9].dffe_c.q
+data_out[10] <= dffe_ref:loop1[10].dffe_c.q
+data_out[11] <= dffe_ref:loop1[11].dffe_c.q
+data_out[12] <= dffe_ref:loop1[12].dffe_c.q
+data_out[13] <= dffe_ref:loop1[13].dffe_c.q
+data_out[14] <= dffe_ref:loop1[14].dffe_c.q
+data_out[15] <= dffe_ref:loop1[15].dffe_c.q
+data_out[16] <= dffe_ref:loop1[16].dffe_c.q
+data_out[17] <= dffe_ref:loop1[17].dffe_c.q
+data_out[18] <= dffe_ref:loop1[18].dffe_c.q
+data_out[19] <= dffe_ref:loop1[19].dffe_c.q
+data_out[20] <= dffe_ref:loop1[20].dffe_c.q
+data_out[21] <= dffe_ref:loop1[21].dffe_c.q
+data_out[22] <= dffe_ref:loop1[22].dffe_c.q
+data_out[23] <= dffe_ref:loop1[23].dffe_c.q
+data_out[24] <= dffe_ref:loop1[24].dffe_c.q
+data_out[25] <= dffe_ref:loop1[25].dffe_c.q
+data_out[26] <= dffe_ref:loop1[26].dffe_c.q
+data_out[27] <= dffe_ref:loop1[27].dffe_c.q
+data_out[28] <= dffe_ref:loop1[28].dffe_c.q
+data_out[29] <= dffe_ref:loop1[29].dffe_c.q
+data_out[30] <= dffe_ref:loop1[30].dffe_c.q
+data_out[31] <= dffe_ref:loop1[31].dffe_c.q
+clr => clr.IN32
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[0].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[1].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[2].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[3].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[4].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[5].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[6].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[7].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[8].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[9].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[10].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[11].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[12].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[13].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[14].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[15].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[16].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[17].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[18].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[19].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[20].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[21].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[22].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[23].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[24].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[25].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[26].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[27].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[28].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[29].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[30].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_drivereg|dffe_ref:loop1[31].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr
+dataA[0] => dataA[0].IN1
+dataA[1] => dataA[1].IN1
+dataA[2] => dataA[2].IN1
+dataA[3] => dataA[3].IN1
+dataA[4] => dataA[4].IN1
+dataA[5] => dataA[5].IN1
+dataA[6] => dataA[6].IN1
+dataA[7] => dataA[7].IN1
+dataA[8] => dataA[8].IN1
+dataA[9] => dataA[9].IN1
+dataA[10] => dataA[10].IN1
+dataA[11] => dataA[11].IN1
+dataA[12] => dataA[12].IN1
+dataA[13] => dataA[13].IN1
+dataA[14] => dataA[14].IN1
+dataA[15] => dataA[15].IN1
+dataA[16] => dataA[16].IN1
+dataA[17] => dataA[17].IN1
+dataA[18] => dataA[18].IN1
+dataA[19] => dataA[19].IN1
+dataA[20] => dataA[20].IN1
+dataA[21] => dataA[21].IN1
+dataA[22] => dataA[22].IN1
+dataA[23] => dataA[23].IN1
+dataA[24] => dataA[24].IN1
+dataA[25] => dataA[25].IN1
+dataA[26] => dataA[26].IN1
+dataA[27] => dataA[27].IN1
+dataA[28] => dataA[28].IN1
+dataA[29] => dataA[29].IN1
+dataA[30] => dataA[30].IN1
+dataA[31] => dataA[31].IN1
+dataB[0] => dataB[0].IN1
+dataB[1] => dataB[1].IN1
+dataB[2] => dataB[2].IN1
+dataB[3] => dataB[3].IN1
+dataB[4] => dataB[4].IN1
+dataB[5] => dataB[5].IN1
+dataB[6] => dataB[6].IN1
+dataB[7] => dataB[7].IN1
+dataB[8] => dataB[8].IN1
+dataB[9] => dataB[9].IN1
+dataB[10] => dataB[10].IN1
+dataB[11] => dataB[11].IN1
+dataB[12] => dataB[12].IN1
+dataB[13] => dataB[13].IN1
+dataB[14] => dataB[14].IN1
+dataB[15] => dataB[15].IN1
+dataB[16] => dataB[16].IN1
+dataB[17] => dataB[17].IN1
+dataB[18] => dataB[18].IN1
+dataB[19] => dataB[19].IN1
+dataB[20] => dataB[20].IN1
+dataB[21] => dataB[21].IN1
+dataB[22] => dataB[22].IN1
+dataB[23] => dataB[23].IN1
+dataB[24] => dataB[24].IN1
+dataB[25] => dataB[25].IN1
+dataB[26] => dataB[26].IN1
+dataB[27] => dataB[27].IN1
+dataB[28] => dataB[28].IN1
+dataB[29] => dataB[29].IN1
+dataB[30] => dataB[30].IN1
+dataB[31] => dataB[31].IN1
+out[0] <= exor:_xor0.port0
+out[1] <= exor:_sx1.port0
+out[2] <= exor:_sx2.port0
+out[3] <= exor:_sx3.port0
+out[4] <= exor:_sx4.port0
+out[5] <= exor:_sx5.port0
+out[6] <= exor:_sx6.port0
+out[7] <= exor:_sx7.port0
+out[8] <= exor:_sx8.port0
+out[9] <= exor:_sx9.port0
+out[10] <= exor:_sx10.port0
+out[11] <= exor:_sx11.port0
+out[12] <= exor:_sx12.port0
+out[13] <= exor:_sx13.port0
+out[14] <= exor:_sx14.port0
+out[15] <= exor:_sx15.port0
+out[16] <= exor:_sx16.port0
+out[17] <= exor:_sx17.port0
+out[18] <= exor:_sx18.port0
+out[19] <= exor:_sx19.port0
+out[20] <= exor:_sx20.port0
+out[21] <= exor:_sx21.port0
+out[22] <= exor:_sx22.port0
+out[23] <= exor:_sx23.port0
+out[24] <= exor:_sx24.port0
+out[25] <= exor:_sx25.port0
+out[26] <= exor:_sx26.port0
+out[27] <= exor:_sx27.port0
+out[28] <= exor:_sx28.port0
+out[29] <= exor:_sx29.port0
+out[30] <= exor:_sx30.port0
+out[31] <= exor:_sx31.port0
+ovf <= _c31.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor1
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor2
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor3
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor4
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor5
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor6
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor7
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor8
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor9
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor10
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor11
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor12
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor13
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor14
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor15
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor16
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor17
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor18
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor19
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor20
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor21
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor22
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor23
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor24
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor25
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor26
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor27
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor28
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor29
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor30
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor31
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_xor0
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx1
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx2
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx3
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx4
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx5
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx6
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx7
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx8
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx9
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx10
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx11
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx12
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx13
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx14
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx15
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx16
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx17
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx18
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx19
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx20
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx21
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx22
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx23
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx24
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx25
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx26
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx27
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx28
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx29
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx30
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_driveIncr|exor:_sx31
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|register:_recovreg
+clk => clk.IN32
+in_en => in_en.IN32
+data_in[0] => data_in[0].IN1
+data_in[1] => data_in[1].IN1
+data_in[2] => data_in[2].IN1
+data_in[3] => data_in[3].IN1
+data_in[4] => data_in[4].IN1
+data_in[5] => data_in[5].IN1
+data_in[6] => data_in[6].IN1
+data_in[7] => data_in[7].IN1
+data_in[8] => data_in[8].IN1
+data_in[9] => data_in[9].IN1
+data_in[10] => data_in[10].IN1
+data_in[11] => data_in[11].IN1
+data_in[12] => data_in[12].IN1
+data_in[13] => data_in[13].IN1
+data_in[14] => data_in[14].IN1
+data_in[15] => data_in[15].IN1
+data_in[16] => data_in[16].IN1
+data_in[17] => data_in[17].IN1
+data_in[18] => data_in[18].IN1
+data_in[19] => data_in[19].IN1
+data_in[20] => data_in[20].IN1
+data_in[21] => data_in[21].IN1
+data_in[22] => data_in[22].IN1
+data_in[23] => data_in[23].IN1
+data_in[24] => data_in[24].IN1
+data_in[25] => data_in[25].IN1
+data_in[26] => data_in[26].IN1
+data_in[27] => data_in[27].IN1
+data_in[28] => data_in[28].IN1
+data_in[29] => data_in[29].IN1
+data_in[30] => data_in[30].IN1
+data_in[31] => data_in[31].IN1
+data_out[0] <= dffe_ref:loop1[0].dffe_c.q
+data_out[1] <= dffe_ref:loop1[1].dffe_c.q
+data_out[2] <= dffe_ref:loop1[2].dffe_c.q
+data_out[3] <= dffe_ref:loop1[3].dffe_c.q
+data_out[4] <= dffe_ref:loop1[4].dffe_c.q
+data_out[5] <= dffe_ref:loop1[5].dffe_c.q
+data_out[6] <= dffe_ref:loop1[6].dffe_c.q
+data_out[7] <= dffe_ref:loop1[7].dffe_c.q
+data_out[8] <= dffe_ref:loop1[8].dffe_c.q
+data_out[9] <= dffe_ref:loop1[9].dffe_c.q
+data_out[10] <= dffe_ref:loop1[10].dffe_c.q
+data_out[11] <= dffe_ref:loop1[11].dffe_c.q
+data_out[12] <= dffe_ref:loop1[12].dffe_c.q
+data_out[13] <= dffe_ref:loop1[13].dffe_c.q
+data_out[14] <= dffe_ref:loop1[14].dffe_c.q
+data_out[15] <= dffe_ref:loop1[15].dffe_c.q
+data_out[16] <= dffe_ref:loop1[16].dffe_c.q
+data_out[17] <= dffe_ref:loop1[17].dffe_c.q
+data_out[18] <= dffe_ref:loop1[18].dffe_c.q
+data_out[19] <= dffe_ref:loop1[19].dffe_c.q
+data_out[20] <= dffe_ref:loop1[20].dffe_c.q
+data_out[21] <= dffe_ref:loop1[21].dffe_c.q
+data_out[22] <= dffe_ref:loop1[22].dffe_c.q
+data_out[23] <= dffe_ref:loop1[23].dffe_c.q
+data_out[24] <= dffe_ref:loop1[24].dffe_c.q
+data_out[25] <= dffe_ref:loop1[25].dffe_c.q
+data_out[26] <= dffe_ref:loop1[26].dffe_c.q
+data_out[27] <= dffe_ref:loop1[27].dffe_c.q
+data_out[28] <= dffe_ref:loop1[28].dffe_c.q
+data_out[29] <= dffe_ref:loop1[29].dffe_c.q
+data_out[30] <= dffe_ref:loop1[30].dffe_c.q
+data_out[31] <= dffe_ref:loop1[31].dffe_c.q
+clr => clr.IN32
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[0].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[1].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[2].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[3].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[4].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[5].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[6].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[7].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[8].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[9].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[10].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[11].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[12].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[13].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[14].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[15].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[16].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[17].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[18].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[19].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[20].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[21].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[22].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[23].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[24].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[25].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[26].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[27].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[28].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[29].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[30].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|register:_recovreg|dffe_ref:loop1[31].dffe_c
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q.DATAB
+clk => q~reg0.CLK
+en => q.OUTPUTSELECT
+clr => q.OUTPUTSELECT
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr
+dataA[0] => dataA[0].IN1
+dataA[1] => dataA[1].IN1
+dataA[2] => dataA[2].IN1
+dataA[3] => dataA[3].IN1
+dataA[4] => dataA[4].IN1
+dataA[5] => dataA[5].IN1
+dataA[6] => dataA[6].IN1
+dataA[7] => dataA[7].IN1
+dataA[8] => dataA[8].IN1
+dataA[9] => dataA[9].IN1
+dataA[10] => dataA[10].IN1
+dataA[11] => dataA[11].IN1
+dataA[12] => dataA[12].IN1
+dataA[13] => dataA[13].IN1
+dataA[14] => dataA[14].IN1
+dataA[15] => dataA[15].IN1
+dataA[16] => dataA[16].IN1
+dataA[17] => dataA[17].IN1
+dataA[18] => dataA[18].IN1
+dataA[19] => dataA[19].IN1
+dataA[20] => dataA[20].IN1
+dataA[21] => dataA[21].IN1
+dataA[22] => dataA[22].IN1
+dataA[23] => dataA[23].IN1
+dataA[24] => dataA[24].IN1
+dataA[25] => dataA[25].IN1
+dataA[26] => dataA[26].IN1
+dataA[27] => dataA[27].IN1
+dataA[28] => dataA[28].IN1
+dataA[29] => dataA[29].IN1
+dataA[30] => dataA[30].IN1
+dataA[31] => dataA[31].IN1
+dataB[0] => dataB[0].IN1
+dataB[1] => dataB[1].IN1
+dataB[2] => dataB[2].IN1
+dataB[3] => dataB[3].IN1
+dataB[4] => dataB[4].IN1
+dataB[5] => dataB[5].IN1
+dataB[6] => dataB[6].IN1
+dataB[7] => dataB[7].IN1
+dataB[8] => dataB[8].IN1
+dataB[9] => dataB[9].IN1
+dataB[10] => dataB[10].IN1
+dataB[11] => dataB[11].IN1
+dataB[12] => dataB[12].IN1
+dataB[13] => dataB[13].IN1
+dataB[14] => dataB[14].IN1
+dataB[15] => dataB[15].IN1
+dataB[16] => dataB[16].IN1
+dataB[17] => dataB[17].IN1
+dataB[18] => dataB[18].IN1
+dataB[19] => dataB[19].IN1
+dataB[20] => dataB[20].IN1
+dataB[21] => dataB[21].IN1
+dataB[22] => dataB[22].IN1
+dataB[23] => dataB[23].IN1
+dataB[24] => dataB[24].IN1
+dataB[25] => dataB[25].IN1
+dataB[26] => dataB[26].IN1
+dataB[27] => dataB[27].IN1
+dataB[28] => dataB[28].IN1
+dataB[29] => dataB[29].IN1
+dataB[30] => dataB[30].IN1
+dataB[31] => dataB[31].IN1
+out[0] <= exor:_xor0.port0
+out[1] <= exor:_sx1.port0
+out[2] <= exor:_sx2.port0
+out[3] <= exor:_sx3.port0
+out[4] <= exor:_sx4.port0
+out[5] <= exor:_sx5.port0
+out[6] <= exor:_sx6.port0
+out[7] <= exor:_sx7.port0
+out[8] <= exor:_sx8.port0
+out[9] <= exor:_sx9.port0
+out[10] <= exor:_sx10.port0
+out[11] <= exor:_sx11.port0
+out[12] <= exor:_sx12.port0
+out[13] <= exor:_sx13.port0
+out[14] <= exor:_sx14.port0
+out[15] <= exor:_sx15.port0
+out[16] <= exor:_sx16.port0
+out[17] <= exor:_sx17.port0
+out[18] <= exor:_sx18.port0
+out[19] <= exor:_sx19.port0
+out[20] <= exor:_sx20.port0
+out[21] <= exor:_sx21.port0
+out[22] <= exor:_sx22.port0
+out[23] <= exor:_sx23.port0
+out[24] <= exor:_sx24.port0
+out[25] <= exor:_sx25.port0
+out[26] <= exor:_sx26.port0
+out[27] <= exor:_sx27.port0
+out[28] <= exor:_sx28.port0
+out[29] <= exor:_sx29.port0
+out[30] <= exor:_sx30.port0
+out[31] <= exor:_sx31.port0
+ovf <= _c31.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor1
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor2
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor3
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor4
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor5
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor6
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor7
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor8
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor9
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor10
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor11
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor12
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor13
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor14
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor15
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor16
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor17
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor18
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor19
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor20
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor21
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor22
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor23
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor24
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor25
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor26
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor27
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor28
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor29
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor30
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor31
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_xor0
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx1
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx2
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx3
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx4
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx5
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx6
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx7
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx8
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx9
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx10
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx11
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx12
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx13
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx14
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx15
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx16
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx17
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx18
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx19
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx20
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx21
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx22
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx23
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx24
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx25
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx26
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx27
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx28
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx29
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx30
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+
+|ratioer|counter:_counter|CLAadder:_recovIncr|exor:_sx31
+out <= _xor.DB_MAX_OUTPUT_PORT_TYPE
+in1 => _xor.IN0
+in2 => _xor.IN1
+
+

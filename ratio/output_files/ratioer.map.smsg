@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ratioer.v(23): always construct contains both blocking and non-blocking assignments File: C:/Users/rberg/Documents/ece350/final_project/ergsdofloat/ratio/ratioer.v Line: 23
