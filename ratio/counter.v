@@ -1,8 +1,8 @@
-module counter(drive_count,recovery_count,start_drive,start_recovery,clk,reset);
+module counter(drive_count,recovery_count,start_drive,start_recovery,clk);
 input  clk,start_drive,start_recovery;
 output[31:0] drive_count;
 output[31:0] recovery_count;
-output reset;
+wire reset;
 wire onDrive;
 
 wire driveOvf, recoveryOvf, onRecovery;
