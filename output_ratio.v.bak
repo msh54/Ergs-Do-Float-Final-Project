@@ -1,0 +1,6 @@
+module output_ratio(ratio,tens,ones);
+	input [31:0] ratio;
+	output [6:0] tens,ones;
+	
+	
+endmodule

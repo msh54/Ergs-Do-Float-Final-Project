@@ -1,0 +1,12 @@
+module ratio_ones_place_coor_check(ADDR, ctrl_ratio_ones_place_check);
+
+input[18:0] ADDR;
+output ctrl_ratio_ones_place_check; 
+
+wire [9:0] xcoor, ycoor;
+
+assign xcoor = ADDR%640;
+assign ycoor = ADDR/640;
+
+assign ctrl_ratio_ones_place_check = (xcoor >= 160) & (xcoor <= 181) & (ycoor >= 29) & (ycoor <= 56);
+endmodule;
